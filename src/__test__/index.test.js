@@ -10,6 +10,6 @@ describe('Probar funcionalidades', ()=> {
     expect(typeof (randomString())).toBe('string')
   });
   test('Comporbar que no existe cuidad', () => {
-    expect(randomString()).not.toMatch(/Cordova/)
+    expect(randomString()).not.toMatch(/test/)
   })
 })
