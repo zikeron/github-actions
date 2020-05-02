@@ -43,6 +43,5 @@ jobs:
         run: npm test --if-present
 
       - name: Push to master
-        uses: tcitry/push-to-master@v1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push origin/master
