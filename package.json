@@ -1,0 +1,20 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Javascript",
+    "Node",
+    "Express"
+  ],
+  "author": "Alejandro Cotrez <acortez.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "expess": "0.0.1-security"
+  }
+}
